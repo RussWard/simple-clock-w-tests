@@ -1,0 +1,29 @@
+{
+  "name": "simple-clock-w-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RussWard/simple-clock-w-tests.git"
+  },
+  "author": "Russ Ward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RussWard/simple-clock-w-tests/issues"
+  },
+  "homepage": "https://github.com/RussWard/simple-clock-w-tests#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
